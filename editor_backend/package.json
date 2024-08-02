@@ -1,0 +1,59 @@
+{
+    "name": "editor_ui",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@react-oauth/google": "^0.12.1",
+      "@testing-library/jest-dom": "^5.17.0",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "@uiw/react-codemirror": "^4.21.21",
+      "axios": "^1.6.2",
+      "codemirror": "^5.65.16",
+      "dotenv": "^16.4.1",
+      "express": "^4.18.2",
+      "mongoose": "^8.1.0",
+      "react": "^18.2.0",
+      "react-avatar": "^5.0.3",
+      "react-dom": "^18.2.0",
+      "react-hot-toast": "^2.4.1",
+      "react-router": "^6.21.0",
+      "react-router-dom": "^6.21.0",
+      "react-scripts": "5.0.1",
+      "react-select": "^5.8.0",
+      "socket.io": "^4.7.2",
+      "socket.io-client": "^4.7.2",
+      "uuid": "^9.0.1",
+      "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "node server.js",
+      "build": "npm install --prefix editor_backend && npm install --prefix editor_ui && npm run build --prefix editor_ui",
+      "server:dev": "nodemon server.js",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      
+      "nodemon": "^3.0.2"
+    }
+  }

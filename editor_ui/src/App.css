@@ -1,0 +1,210 @@
+.homePageWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 100vh;
+  }
+  
+  .formWrapper {
+    background: #282a36;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+  }
+  
+  .githubLink {
+    color: #4aee88;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mainLabel {
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  
+  .inputBox {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 14px;
+    background: #eee;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .btn {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btnGrp {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .joinBtn,
+  .leaveBtn {
+    background: #4aed88;
+    width: 100px;
+    margin-left: auto;
+  }
+  
+  .loginBtn {
+    background: #4aed88;
+    width: 100px;
+    margin-right: auto;
+  }
+  
+  .joinBtn:hover,
+  .leaveBtn:hover,
+  .loginBtn:hover .accessBtn:hover {
+    background: #2b824c;
+  }
+  
+  .createInfo {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .createNewBtn {
+    color: #4aed88;
+    text-decoration: none;
+    border-bottom: 1px solid #4aed88;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .createNewBtn:hover,
+  footer a:hover {
+    color: #368654;
+    border-color: #368654;
+  }
+  
+  .mainWrap {
+    display: grid;
+    grid-template-columns: 230px 800px 1fr;
+  }
+  
+  .fullWrap {
+    display: grid;
+    grid-template: 100px;
+  }
+  
+  .nav {
+    min-height: 50px;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    height: 50px;
+    text-align: center;
+    color: #afec3f;
+    background-color: #474747;
+    gap: 20px;
+  }
+  
+  .select {
+    color: #14502b;
+    margin: 5px;
+  }
+  
+  .accessGrp {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+  }
+  
+  .accessBtn {
+    background: #4aed88;
+    width: 100px;
+    height: 50px;
+    font-size: small;
+  }
+  
+  .accessInput {
+    font-size: medium;
+    margin: 5px;
+  }
+  
+  .inputOutputbox {
+    display: grid;
+    grid-template: 42% 48%;
+  }
+  
+  .inputbox,
+  .outputbox {
+    min-height: 190px;
+    min-width: 280px;
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 10px;
+    resize: none;
+    background-color: rgb(16, 59, 78);
+    color: #4aed88;
+    margin-left: 10px;
+  }
+  
+  .aside {
+    background: #1c1e29;
+    padding: 16px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  .asideInner {
+    flex: 1;
+  }
+  
+  .clientsList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .client {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+  }
+  .userName {
+    margin-top: 10px;
+  }
+  
+  .leaveBtn {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .runBtn {
+    width: 10%;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+  }
+  
+  .CodeMirror {
+    min-height: calc(100vh - 120px);
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 20px;
+  }
